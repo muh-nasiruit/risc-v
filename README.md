@@ -9,7 +9,7 @@ Basic RV32I processor circuit with implementation of a few R-Type operations.
 The processor is able to perform **ADD, OR, and, AND** instructions.
 
 ## Instructions
-1. Run Logisim and open the file '''processor.circ'''.
+1. Run Logisim and open the file ``processor.circ``.
 2. Set the bits connecting to the ADD block to binary 4 (0100).
 3. Enter the machine code for the instruction in the IMEM (Instruction Memory).
 4. Set the selector pin according to the required instruction. (00 = ADD, 10 = AND, 11 = OR)
